@@ -17,7 +17,7 @@ bool typesEqual() {
 }
 
 struct unused;
-// `Type` is checked for occurrences in the list of types `First, Rest...`
+// `Type` is checked for occurrences in the list of types T0, T1, ....`
 template<typename Type, typename T0 = unused, typename T1 = unused,
         typename T2 = unused, typename T3 = unused,
         typename T4 = unused, typename T5 = unused,
